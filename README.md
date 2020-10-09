@@ -1,24 +1,11 @@
 # Exemplo Simples de Front-End
 
-* Programa Simples para Desafio do CodeBY
+### Como Compilar
 
-### O que se deve fazer
+1. Instale o **Nodejs** e **npm**
+2. abra um Terminal e use o comando `npm install` dentro do Diretório _codebyProject_
+3. Para compilar o Projeto, use o comando `ng serve` no Terminal dentro do Diretório _codebyProject_
 
-**Desenvolver o Front-End de um layout usando Flex-Box CSS e suas propriedades.**
-
-Requisitos mínimos:
-
-1. Usar Flex-Box CSS.
-2. Resolução Desktop.
-3. Enviar o link do teste no github.
-
-Atingindo os requisitos mínimos você pode **explorar mais o layout**, use sua criatividade para incrementar mais o seu teste, claro, estando dentro do prazo.
-
-Caso tenha algum problema com os arquivos do layout, pode usar dummy images.
-
-Layout
-
-- [https://drive.google.com/open?id=1kRIuNvlDjPALr5JpGKWe4A4Uqw4Tplkz](https://drive.google.com/open?id=1kRIuNvlDjPALr5JpGKWe4A4Uqw4Tplkz)
 
 ### O que utilizei
 
