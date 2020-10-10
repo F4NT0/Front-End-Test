@@ -125,7 +125,7 @@
 }
 #typetitles2{
     position: absolute;
-    color: lightblue;
+    color: red;
     -webkit-text-stroke: 1px black;
     left: 850px;
     font-size: 50px;
@@ -133,9 +133,25 @@
 }
 #typetitles3{
     position: absolute;
-    color: red;
+    color: white;
     -webkit-text-stroke: 1px black;
     left: 20px;
+    font-size: 50px;
+    font-family: "codebyfont";
+}
+#typetitles4{
+    position: absolute;
+    color: lightblue;
+    -webkit-text-stroke: 1px black;
+    left: 20px;
+    font-size: 50px;
+    font-family: "codebyfont";
+}
+#typetitles5{
+    position: absolute;
+    color: orange;
+    -webkit-text-stroke: 1px black;
+    left: 850px;
     font-size: 50px;
     font-family: "codebyfont";
 }
@@ -152,7 +168,34 @@
 }
 #subtitles2{
     position: absolute;
+    color: red;
+    -webkit-text-stroke: 1px black;
+    font-family: "codebyfont";
+    font-size: 23px;
+    left: 850px;
+    top: 100px;
+}
+#subtitles3{
+    position: absolute;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-family: "codebyfont";
+    font-size: 23px;
+    left: 20px;
+    top: 100px;
+}
+#subtitles4{
+    position: absolute;
     color: lightblue;
+    -webkit-text-stroke: 1px black;
+    font-family: "codebyfont";
+    font-size: 23px;
+    left: 20px;
+    top: 100px;
+}
+#subtitles5{
+    position: absolute;
+    color: orange;
     -webkit-text-stroke: 1px black;
     font-family: "codebyfont";
     font-size: 23px;
