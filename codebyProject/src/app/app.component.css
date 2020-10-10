@@ -1,5 +1,9 @@
 /* Classes */
 
+.container{
+    position: relative;
+}
+
 .flex{
     display: flex;
     flex-flow: row wrap;
@@ -8,12 +12,22 @@
     font-family: "codebyfont";
     font-size: 20px;
     color: black;
+    position: relative;
 }
 .options{
+    position: relative;
     background-color: transparent;
     margin: 10px;
 }
-
+.texts{
+    position: absolute;
+}
+.images{
+    flex: 1;
+    height: 465px;
+    position: relative;
+    margin: 5px;  
+}
 
 /* Header */
 
@@ -67,7 +81,8 @@
     color: black;
 }
 
-/* Categories */
+/* Images */
+
 #image1{
     flex: 1;
     position: relative;
@@ -98,6 +113,53 @@
     position: relative;
     margin: 5px;
 }
+
+/* Tittles */
+#typetitles1{
+    position: absolute;
+    color: greenyellow;
+    -webkit-text-stroke: 1px black;
+    left: 20px;
+    font-size: 50px;
+    font-family: "codebyfont";
+}
+#typetitles2{
+    position: absolute;
+    color: lightblue;
+    -webkit-text-stroke: 1px black;
+    left: 850px;
+    font-size: 50px;
+    font-family: "codebyfont";
+}
+#typetitles3{
+    position: absolute;
+    color: red;
+    -webkit-text-stroke: 1px black;
+    left: 20px;
+    font-size: 50px;
+    font-family: "codebyfont";
+}
+
+/* Subtitles */
+#subtitles1{
+    position: absolute;
+    color: greenyellow;
+    -webkit-text-stroke: 1px black;
+    font-family: "codebyfont";
+    font-size: 23px;
+    left: 20px;
+    top: 100px;
+}
+#subtitles2{
+    position: absolute;
+    color: lightblue;
+    -webkit-text-stroke: 1px black;
+    font-family: "codebyfont";
+    font-size: 23px;
+    left: 850px;
+    top: 100px;
+}
+
 
 
 /* Personal Font */
